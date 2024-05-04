@@ -1,7 +1,7 @@
 
 public class Encriptador {
 
-    // Se encripta el texto pero con una clave dada nomás xd.
+    // solo es un método pa' encriptar un texto con una clave dada en consola xd.
 
     public String encriptarTexto(String texto, int clave) {
 
@@ -9,7 +9,7 @@ public class Encriptador {
 
         for (char caracter : texto.toCharArray()) {
 
-            int codigoNuevo = ((caracter - 'A' + clave) % 26) + 'A'; // Asumiendo texto en mayúsculas
+            int codigoNuevo = ((caracter - 'A' + clave) % 26) + 'A';
 
             textoEncriptado.append((char) codigoNuevo);
 
@@ -20,6 +20,9 @@ public class Encriptador {
     }
 
 }
+
+
+
 
 
 

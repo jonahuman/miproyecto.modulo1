@@ -5,11 +5,17 @@ public class Descencriptador {
 
     public String desencriptarTexto(String textoCifrado, int clave) {
 
-        return new Encriptador().encriptarTexto(textoCifrado, 26 - clave); // Utiliza la clave inversa
+        // pero igual utiliza una clave inversa para desencriptar el texto
+
+        return new Encriptador().encriptarTexto(textoCifrado, 26 - clave);
 
     }
 
 }
+
+
+
+
 
 
 // @author: Jonathan David.
