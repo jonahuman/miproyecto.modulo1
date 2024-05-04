@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Main {
@@ -18,7 +17,8 @@ public class Main {
         int opcion;
 
         while (true) { // recomendado que por cada funcionaldiad
-                       // hacer un commit por cada modificación
+
+            // hacer un commit por cada modificación
 
             System.out.println("*********MENÚ***********");
 
@@ -42,41 +42,41 @@ public class Main {
 
                 case 1:
 
-                    System.out.println("-.-.-.-.-.-Introduce texto a encriptar-.-.-.-.-.-: ");
+                        System.out.println("-.-.-.-.-.-Introduce texto a encriptar-.-.-.-.-.-: ");
 
-                    String texto = scanner.nextLine();
+                        String texto = scanner.nextLine();
 
-                    System.out.println("-.-.-.-.-.-Introduce la clave (número entero)-.-.-.-.-.-: ");
+                        System.out.println("-.-.-.-.-.-Introduce la clave (número entero)-.-.-.-.-.-: ");
 
-                    int clave = scanner.nextInt();
+                        int clave = scanner.nextInt();
 
-                    scanner.nextLine();
+                        scanner.nextLine();
 
-                    String textoEncriptado = encriptador.encriptarTexto(texto, clave);
+                        String textoEncriptado = encriptador.encriptarTexto(texto, clave);
 
-                    System.out.println("Texto encriptado: " + textoEncriptado);
+                        System.out.println("Texto encriptado: " + textoEncriptado);
 
-                    break; // se termina la opción numero 1 xd.
+                        break; // se termina la opción numero 1 xd.
 
                 case 2:
 
-                    System.out.println("-.-.-.-.-Introduce texto a descencriptar-.-.-.-.-.-: ");
+                        System.out.println("-.-.-.-.-Introduce texto a descencriptar-.-.-.-.-.-: ");
 
-                    texto = scanner.nextLine();
+                        texto = scanner.nextLine();
 
-                    System.out.println("-.-.-.-.-.-Introduce la clave (número entero)-.-.-.-.-.-: ");
+                        System.out.println("-.-.-.-.-.-Introduce la clave (número entero)-.-.-.-.-.-: ");
 
-                    clave = scanner.nextInt();
+                        clave = scanner.nextInt();
 
-                    scanner.nextLine();
+                        scanner.nextLine();
 
-                    String textoDescencriptado = descencriptador.desencriptarTexto(texto, clave);
+                        String textoDescencriptado = descencriptador.desencriptarTexto(texto, clave);
 
-                    System.out.println("Texto descencriptado: " + textoDescencriptado);
+                        System.out.println("Texto descencriptado: " + textoDescencriptado);
 
-                    break;
-
-                    case 3:
+                        break;
+                    
+                case 3:
 
                         System.out.println("-.-.-.-.-.-.-Introduce texto a descencriptar por fuerza bruta-.-.-.-.-.-.-: ");
 
@@ -88,21 +88,21 @@ public class Main {
 
                         break;
 
-                        case 4:
+                case 4:
 
-                            System.out.println("**********Saliendo del programa...***********");
+                        System.out.println("**********Saliendo del programa...***********");
 
-                            scanner.close();
+                        scanner.close();
 
-                            return;
+                        return;
+                            
+                default:
+                    
+                        System.out.println("********Opción no válida. Intente de nuevo.*********");
+                    
+                        // cada vez que quise imprimir use el sout xd.
 
-                            default:
-
-                                System.out.println("********Opción no válida. Intente de nuevo.*********");
-
-                                // cada vez que quise imprimir use el sout xd.
-
-                                break;
+                        break;
 
             }
 
@@ -120,3 +120,4 @@ public class Main {
 // País: Chile
 
 // Fecha: 03 de Mayo, 2024
+
