@@ -1,15 +1,21 @@
 
 public class DescencriptadorPorFuerzaBruta {
 
-    // se puede dar desencriptado a un texto cualquiera pero por fuerza bruta xd.
+    private Descencriptador descencriptador = new Descencriptador();
 
     public String desencriptarPorFuerzaBruta(String textoEncriptado) {
 
-        for (int clave = 0; clave < 26; clave++) {
+        // yo creo que el rango de claves y va de 1 a 26 (para el alfabeto inglés) xd.
 
-            String textoDesencriptado = new Descencriptador().desencriptarTexto(textoEncriptado, clave);
+        for (int clave = 1; clave <= 26; clave++) {
 
-            if (contienePalabrasEnEspanol(textoDesencriptado)) {
+            String textoDesencriptado = descencriptador.desencriptarTexto(textoEncriptado, clave);
+
+            if (esTextoEnEspanol(textoDesencriptado)) {
+
+                System.out.println("Clave encontrada: " + clave);
+
+                System.out.println("Texto desencriptado: " + textoDesencriptado);
 
                 return textoDesencriptado;
 
@@ -17,15 +23,15 @@ public class DescencriptadorPorFuerzaBruta {
 
         }
 
-        return "Texto no desencriptado.";
+        return "No se pudo desencriptar el mensaje con las claves probadas.";
 
     }
 
-    // Método auxiliar para verificar si el texto contiene palabras comunes en español.
+    private boolean esTextoEnEspanol(String texto) {
 
-    private boolean contienePalabrasEnEspanol(String texto) {
+        // para palabras comunes en español neutro y chileno que podrían indicar que el texto está en español xd.
 
-        String[] palabrasComunes = {"el", "la", "de", "y", "en"};
+        String[] palabrasComunes = {"el", "la", "de", "y", "en", "que", "los", "del", "se", "las"};
 
         for (String palabra : palabrasComunes) {
 
