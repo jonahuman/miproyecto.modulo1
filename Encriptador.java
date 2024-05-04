@@ -1,17 +1,15 @@
 
-public class Encriptador {
-
-    // solo es un método pa' encriptar un texto con una clave dada en consola xd.
+public class Encriptador { // ya ni sé que hago con esta clase xd.
 
     public String encriptarTexto(String texto, int clave) {
+
+        RecorredorDeLetras recorredor = new RecorredorDeLetras();
 
         StringBuilder textoEncriptado = new StringBuilder();
 
         for (char caracter : texto.toCharArray()) {
 
-            int codigoNuevo = ((caracter - 'A' + clave) % 26) + 'A';
-
-            textoEncriptado.append((char) codigoNuevo);
+            textoEncriptado.append(recorredor.recorrerCaracter(caracter, clave));
 
         }
 
@@ -20,11 +18,6 @@ public class Encriptador {
     }
 
 }
-
-
-
-
-
 
 // @author: Jonathan David.
 

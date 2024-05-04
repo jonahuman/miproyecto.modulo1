@@ -1,17 +1,14 @@
 
 public class Descencriptador {
 
-    // se descenripta el texto con la clave que des en consola xd.
-
     public String desencriptarTexto(String textoCifrado, int clave) {
 
-        // pero igual utiliza una clave inversa para desencriptar el texto
-
-        return new Encriptador().encriptarTexto(textoCifrado, 26 - clave);
+        return new Encriptador().encriptarTexto(textoCifrado, 26 - clave); // solo utiliza la clave inversa para desencriptar xd.
 
     }
 
 }
+
 
 
 

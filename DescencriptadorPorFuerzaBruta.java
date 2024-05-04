@@ -1,18 +1,14 @@
 public class DescencriptadorPorFuerzaBruta {
 
-    private Descencriptador descencriptador = new Descencriptador();
-
     public String desencriptarPorFuerzaBruta(String textoEncriptado) {
+
+        Descencriptador descencriptador = new Descencriptador();
 
         for (int clave = 1; clave <= 26; clave++) {
 
             String textoDesencriptado = descencriptador.desencriptarTexto(textoEncriptado, clave);
 
-            if (esTextoEnEspanol(textoDesencriptado)) {
-
-                System.out.println("Clave encontrada: " + clave);
-
-                System.out.println("Texto desencriptado: " + textoDesencriptado);
+            if (textoDesencriptado.contains(" ")) { // suponiendo que un espacio es el indicador de texto en español
 
                 return textoDesencriptado;
 
@@ -21,25 +17,6 @@ public class DescencriptadorPorFuerzaBruta {
         }
 
         return "No se pudo desencriptar el mensaje con las claves probadas.";
-
-    }
-
-
-    private boolean esTextoEnEspanol(String texto) {
-
-        String[] palabrasComunes = {"el", "la", "de", "y", "en", "que", "los", "del", "se", "las"};
-
-        for (String palabra : palabrasComunes) {
-
-            if (texto.contains(palabra)) {
-
-                return true;
-
-            }
-
-        }
-
-        return false;
 
     }
 
