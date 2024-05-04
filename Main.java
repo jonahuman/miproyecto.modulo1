@@ -37,11 +37,11 @@ public class Main {
 
                 case 1:
 
-                    System.out.println("Introduce texto a encriptar: ");
+                    System.out.println("-.-.-.-.-.-Introduce texto a encriptar-.-.-.-.-.-: ");
 
                     String texto = scanner.nextLine();
 
-                    System.out.println("Introduce la clave (número entero): ");
+                    System.out.println("-.-.-.-.-.-Introduce la clave (número entero)-.-.-.-.-.-: ");
 
                     int clave = scanner.nextInt();
 
@@ -55,11 +55,11 @@ public class Main {
 
                 case 2:
 
-                    System.out.println("Introduce texto a descencriptar: ");
+                    System.out.println("-.-.-.-.-Introduce texto a descencriptar-.-.-.-.-.-: ");
 
                     texto = scanner.nextLine();
 
-                    System.out.println("Introduce la clave (número entero): ");
+                    System.out.println("-.-.-.-.-.-Introduce la clave (número entero)-.-.-.-.-.-: ");
 
                     clave = scanner.nextInt();
 

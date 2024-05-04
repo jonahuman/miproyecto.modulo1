@@ -4,7 +4,7 @@ public class DescencriptadorPorFuerzaBruta {
 
         Descencriptador descencriptador = new Descencriptador();
 
-        for (int clave = 1; clave <= 26; clave++) {
+        for (int clave = 1; clave <= 26; clave++) { // solo porque en gringolandia no hay ñ XD.
 
             String textoDesencriptado = descencriptador.desencriptarTexto(textoEncriptado, clave);
 
