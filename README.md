@@ -1,6 +1,6 @@
 <h1 align="center">Criptografía</h1>
 
-## Criptoanalizador en Java 🚀
+<h1 align="center"> Criptoanalizador en Java 🚀</h1>
 
 <h2>Descripción del Proyecto 📝</h2>
 
