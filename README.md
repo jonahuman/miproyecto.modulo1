@@ -14,11 +14,15 @@ Desencriptar por Fuerza Bruta: Encuentra la clave correcta y desencripta el text
 
 ## Estructura del Proyecto 🏗️
 
-Main.java: Interfaz de usuario en consola para interactuar con el programa.
-Encriptador.java: Clase que maneja la lógica de encriptación.
-Descencriptador.java: Clase que maneja la lógica de desencriptación.
-DescencriptadorPorFuerzaBruta.java: Clase que implementa el método de fuerza bruta para desencriptar.
-RecorredorDeLetras.java: Clase auxiliar para el desplazamiento de caracteres.
+`Main.java`: Interfaz de usuario en consola para interactuar con el programa.
+
+`Encriptador.java`: Clase que maneja la lógica de encriptación.
+
+`Descencriptador.java`: Clase que maneja la lógica de desencriptación.
+
+`DescencriptadorPorFuerzaBruta.java`: Clase que implementa el método de fuerza bruta para desencriptar.
+
+`RecorredorDeLetras.java`: Clase auxiliar para el desplazamiento de caracteres.
 
 ## Cómo Usar 💡
 
