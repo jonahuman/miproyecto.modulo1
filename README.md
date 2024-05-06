@@ -42,9 +42,24 @@ Pantallazo 2
 
 Pantallazo 3
 
-![Captura de pantalla 2024-05-06 195125](https://github.com/flerxay/miproyecto.modulo1/assets/97056884/bd5fe828-fc10-43e5-a081-57ed3d7bd246)
+![Captura de pantalla 2024-05-06 195226](https://github.com/flerxay/miproyecto.modulo1/assets/97056884/f15434d1-1743-45d4-84d2-68efc7a160d6)
 
 Pantallazo 4
+
+![Captura de pantalla 2024-05-06 195523](https://github.com/flerxay/miproyecto.modulo1/assets/97056884/f520443d-ce55-4685-9f0a-faeda70e39dc)
+
+## Contribuciones 🤝
+Las contribuciones son lo que hacen a la comunidad de código abierto un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas será muy apreciada.
+
+## Licencia 📄
+Distribuido bajo la Licencia MIT. Consulta LICENSE para más información.
+
+## Contacto 📬
+Tu Nombre - @flerxay - jo.ahumada@duocuc.cl
+
+Link del Proyecto: https://github.com/flerxay/miproyecto.modulo1
+
+<h1 align="center">⭐️ Si te gusta este proyecto, porfa dale una estrella. Gracias!</h1>
 
 
 
