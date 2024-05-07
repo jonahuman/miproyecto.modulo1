@@ -27,7 +27,7 @@ Desencriptar por Fuerza Bruta: Encuentra la clave correcta y desencripta el text
 ## Cómo Usar 💡
 
 1. Clona el repositorio en tu máquina local.
-2. `shell
+2. Comando en consola para clonar: `
    git clone https://github.com/flerxay/miproyecto.modulo1`
 4. Abre IntelliJ IDEA Community Edition, descarga gratuita desde JetBrains `https://www.jetbrains.com/es-es/idea/download/download-thanks.html?platform=windows&code=IIC`.
 5. Importa el proyecto seleccionando la carpeta donde lo clonaste.
