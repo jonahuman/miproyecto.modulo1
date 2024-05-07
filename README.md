@@ -59,7 +59,7 @@ Las contribuciones son lo que hacen a la comunidad de código abierto un lugar i
 Distribuido bajo la Licencia MIT. Consulta LICENSE para más información.
 
 ## Contacto 📬
-Tu Nombre - @flerxay - jo.ahumada@duocuc.cl
+Jonathan Ahumada. - Discrod: https://discord.gg/vY4YDVxgBS - jo.ahumada@duocuc.cl
 
 Link del Proyecto: https://github.com/flerxay/miproyecto.modulo1
 
