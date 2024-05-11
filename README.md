@@ -4,7 +4,7 @@
 
 <h2>Descripción del Proyecto 📝</h2>
 
-Este proyecto de Criptoanalizador en Java es una herramienta poderosa para encriptar y desencriptar texto utilizando el cifrado César. Es perfecto para aquellos interesados en la seguridad informática y la criptografía. Con un enfoque en la simplicidad y eficiencia, este proyecto sigue el principio de responsabilidad única para garantizar un código limpio y mantenible.
+Este proyecto de Criptoanalizador en Java es una herramienta poderosa para encriptar y desencriptar texto utilizando el cifrado César yo lo encuentro perfecto para aquellos interesados en la seguridad informática junto a la criptografía. Con un enfoque en la simplicidad y eficiencia, este proyecto sigue el principio de responsabilidad única para garantizar un código limpio y mantenible.
 
 ## Funcionalidades 🛠️
 
@@ -59,7 +59,7 @@ Las contribuciones son lo que hacen a la comunidad de código abierto un lugar i
 Distribuido bajo la Licencia MIT. Consulta LICENSE para más información.
 
 ## Contacto 📬
-Jonathan Ahumada. - Discrod: https://discord.gg/vY4YDVxgBS - jo.ahumada@duocuc.cl
+Jonathan Ahumada. - Discord: https://discord.gg/vY4YDVxgBS - jo.ahumada@duocuc.cl
 
 Link del Proyecto: https://github.com/flerxay/miproyecto.modulo1
 
