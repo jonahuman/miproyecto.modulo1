@@ -56,7 +56,7 @@ Pantallazo 4
 Las contribuciones son lo que hacen a la comunidad de código abierto un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas será muy apreciada.
 
 ## Licencia 📄
-Distribuido bajo la Licencia MIT. Consulta LICENSE para más información.
+No hay distribuición, no hay LICENSE 
 
 ## Contacto 📬
 Jonathan Ahumada. - Discord: https://discord.gg/vY4YDVxgBS - jo.ahumada@duocuc.cl
